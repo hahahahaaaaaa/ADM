@@ -1,0 +1,28 @@
+﻿{
+  "project_name": "ADM-MRJA",
+  "version": "1.0",
+  "default_conda_env": "bishe-oss",
+  "directories": {
+    "defense_layer": "defense_layer",
+    "datasets": "datasets",
+    "evaluation": "evaluation",
+    "interfaces": "interfaces",
+    "results": "results",
+    "docs": "docs"
+  },
+  "default_outputs": {
+    "framework_outputs": "results/framework_outputs",
+    "demo_outputs": "results/demo_outputs",
+    "evaluation_safe50": "results/evaluation_safe50"
+  },
+  "default_datasets": {
+    "mhj_harmful": "datasets/MHJ_fallback_public/Harmful_Dataset.csv",
+    "mhj_completely_benign": "datasets/MHJ_fallback_public/Completely-Benign_Dataset.csv",
+    "mhj_semi_benign": "datasets/MHJ_fallback_public/Semi-Benign_Dataset.csv",
+    "safedial_en": "datasets/SafeDialBench/datasets_en.jsonl",
+    "safedial_zh": "datasets/SafeDialBench/datasets_zh.jsonl",
+    "harmful_behaviors": "datasets/external/harmful_behaviors.csv",
+    "safe_dialogs": "interfaces/safe_test_dialogs.jsonl",
+    "demo_cases": "interfaces/demo_cases.json"
+  }
+}
