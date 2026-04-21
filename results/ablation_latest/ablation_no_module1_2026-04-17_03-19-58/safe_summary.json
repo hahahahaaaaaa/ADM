@@ -1,0 +1,19 @@
+{
+  "sample_count": 88,
+  "turn_count": 776,
+  "avg_fused_risk": 0.2038,
+  "action_distribution": {
+    "guide": 190,
+    "allow": 586
+  },
+  "safety_metrics": {
+    "turn_count": 776,
+    "avg_response_risk_before": 0.2614,
+    "avg_response_risk_after": 0.1194,
+    "unsafe_rate_before": 0.2294,
+    "unsafe_rate_after": 0.0,
+    "asr_proxy_reduction": 0.2294,
+    "benign_over_refusal_rate": 0.0,
+    "benign_utility_jaccard": 0.8752
+  }
+}

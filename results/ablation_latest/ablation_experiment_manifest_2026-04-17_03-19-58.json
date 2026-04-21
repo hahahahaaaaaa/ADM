@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-04-17T03:49:15",
+  "summary_output": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_experiment_summary_2026-04-17_03-19-58.json",
+  "report_output": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_experiment_report_2026-04-17_03-19-58.md",
+  "per_variant_outputs": {
+    "full": {
+      "mhj_fallback_harmful": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_full_2026-04-17_03-19-58\\mhj_fallback_harmful.json",
+      "safedialbench_en": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_full_2026-04-17_03-19-58\\safedialbench_en.json",
+      "safedialbench_zh": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_full_2026-04-17_03-19-58\\safedialbench_zh.json",
+      "attack_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_full_2026-04-17_03-19-58\\attack_summary.json",
+      "safe_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_full_2026-04-17_03-19-58\\safe_summary.json"
+    },
+    "no_module1": {
+      "mhj_fallback_harmful": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module1_2026-04-17_03-19-58\\mhj_fallback_harmful.json",
+      "safedialbench_en": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module1_2026-04-17_03-19-58\\safedialbench_en.json",
+      "safedialbench_zh": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module1_2026-04-17_03-19-58\\safedialbench_zh.json",
+      "attack_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module1_2026-04-17_03-19-58\\attack_summary.json",
+      "safe_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module1_2026-04-17_03-19-58\\safe_summary.json"
+    },
+    "no_module2": {
+      "mhj_fallback_harmful": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module2_2026-04-17_03-19-58\\mhj_fallback_harmful.json",
+      "safedialbench_en": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module2_2026-04-17_03-19-58\\safedialbench_en.json",
+      "safedialbench_zh": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module2_2026-04-17_03-19-58\\safedialbench_zh.json",
+      "attack_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module2_2026-04-17_03-19-58\\attack_summary.json",
+      "safe_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_module2_2026-04-17_03-19-58\\safe_summary.json"
+    },
+    "no_partial_refuse": {
+      "mhj_fallback_harmful": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_partial_refuse_2026-04-17_03-19-58\\mhj_fallback_harmful.json",
+      "safedialbench_en": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_partial_refuse_2026-04-17_03-19-58\\safedialbench_en.json",
+      "safedialbench_zh": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_partial_refuse_2026-04-17_03-19-58\\safedialbench_zh.json",
+      "attack_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_partial_refuse_2026-04-17_03-19-58\\attack_summary.json",
+      "safe_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_partial_refuse_2026-04-17_03-19-58\\safe_summary.json"
+    },
+    "no_rewrite": {
+      "mhj_fallback_harmful": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_rewrite_2026-04-17_03-19-58\\mhj_fallback_harmful.json",
+      "safedialbench_en": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_rewrite_2026-04-17_03-19-58\\safedialbench_en.json",
+      "safedialbench_zh": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_rewrite_2026-04-17_03-19-58\\safedialbench_zh.json",
+      "attack_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_rewrite_2026-04-17_03-19-58\\attack_summary.json",
+      "safe_summary": "C:\\Users\\hhh\\Desktop\\bishe\\bishe\\攻击代码复现\\ADM-MRJA\\results\\framework_outputs\\ablation_no_rewrite_2026-04-17_03-19-58\\safe_summary.json"
+    }
+  },
+  "variants": [
+    "full",
+    "no_module1",
+    "no_module2",
+    "no_partial_refuse",
+    "no_rewrite"
+  ],
+  "online_target_mode": true,
+  "target_model": "gpt-3.5-turbo",
+  "base_url": "https://yinli.one/v1"
+}

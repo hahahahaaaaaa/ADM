@@ -1,0 +1,50 @@
+{
+  "mhj_fallback_harmful": {
+    "sample_count": 100,
+    "successful_count": 0,
+    "successful_rate": 0.0,
+    "avg_final_cumulative_risk": 0.0,
+    "avg_turn_count_defended": 20.8,
+    "action_distribution": {
+      "guide": 396,
+      "allow": 616,
+      "rewrite": 28
+    }
+  },
+  "safedialbench_en": {
+    "sample_count": 50,
+    "successful_count": 0,
+    "successful_rate": 0.0,
+    "avg_final_cumulative_risk": 0.0,
+    "avg_turn_count_defended": 10.0,
+    "action_distribution": {
+      "guide": 219,
+      "allow": 20,
+      "rewrite": 11
+    }
+  },
+  "safedialbench_zh": {
+    "sample_count": 50,
+    "successful_count": 13,
+    "successful_rate": 0.26,
+    "avg_final_cumulative_risk": 0.0,
+    "avg_turn_count_defended": 7.72,
+    "action_distribution": {
+      "allow": 103,
+      "rewrite": 2,
+      "guide": 88
+    }
+  },
+  "overall": {
+    "sample_count": 200,
+    "successful_count": 13,
+    "successful_rate": 0.065,
+    "avg_final_cumulative_risk": 0.0,
+    "avg_turn_count_defended": 14.83,
+    "action_distribution": {
+      "guide": 703,
+      "allow": 739,
+      "rewrite": 41
+    }
+  }
+}

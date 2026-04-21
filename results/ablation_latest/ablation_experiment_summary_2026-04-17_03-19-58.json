@@ -1,0 +1,451 @@
+{
+  "timestamp": "2026-04-17T03:49:15",
+  "overall_rows": [
+    {
+      "variant": "full",
+      "attack_sample_count": 200,
+      "asr": 0.02,
+      "avg_final_cumulative_risk": 0.3743,
+      "attack_action_distribution": {
+        "guide": 446,
+        "rewrite": 286,
+        "allow": 709,
+        "partial_refuse": 28,
+        "refuse": 14
+      },
+      "safe_sample_count": 88,
+      "benign_over_refusal_rate": 0.0026,
+      "benign_utility_jaccard": 0.8752,
+      "unsafe_rate_after": 0.0026,
+      "avg_response_risk_after": 0.121
+    },
+    {
+      "variant": "no_module1",
+      "attack_sample_count": 200,
+      "asr": 0.065,
+      "avg_final_cumulative_risk": 0.0,
+      "attack_action_distribution": {
+        "guide": 703,
+        "allow": 739,
+        "rewrite": 41
+      },
+      "safe_sample_count": 88,
+      "benign_over_refusal_rate": 0.0,
+      "benign_utility_jaccard": 0.8752,
+      "unsafe_rate_after": 0.0,
+      "avg_response_risk_after": 0.1194
+    },
+    {
+      "variant": "no_module2",
+      "attack_sample_count": 200,
+      "asr": 0.065,
+      "avg_final_cumulative_risk": 0.3151,
+      "attack_action_distribution": {
+        "guide": 752,
+        "allow": 729,
+        "rewrite": 2
+      },
+      "safe_sample_count": 88,
+      "benign_over_refusal_rate": 0.0,
+      "benign_utility_jaccard": 0.8752,
+      "unsafe_rate_after": 0.0,
+      "avg_response_risk_after": 0.1194
+    },
+    {
+      "variant": "no_partial_refuse",
+      "attack_sample_count": 200,
+      "asr": 0.02,
+      "avg_final_cumulative_risk": 0.3743,
+      "attack_action_distribution": {
+        "guide": 446,
+        "rewrite": 286,
+        "allow": 709,
+        "refuse": 42
+      },
+      "safe_sample_count": 88,
+      "benign_over_refusal_rate": 0.0026,
+      "benign_utility_jaccard": 0.8726,
+      "unsafe_rate_after": 0.0,
+      "avg_response_risk_after": 0.1195
+    },
+    {
+      "variant": "no_rewrite",
+      "attack_sample_count": 200,
+      "asr": 0.02,
+      "avg_final_cumulative_risk": 0.3743,
+      "attack_action_distribution": {
+        "guide": 732,
+        "allow": 709,
+        "partial_refuse": 28,
+        "refuse": 14
+      },
+      "safe_sample_count": 88,
+      "benign_over_refusal_rate": 0.0026,
+      "benign_utility_jaccard": 0.8752,
+      "unsafe_rate_after": 0.0026,
+      "avg_response_risk_after": 0.121
+    }
+  ],
+  "attack_summaries": {
+    "full": {
+      "mhj_fallback_harmful": {
+        "sample_count": 100,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.4158,
+        "avg_turn_count_defended": 20.8,
+        "action_distribution": {
+          "guide": 216,
+          "rewrite": 176,
+          "allow": 616,
+          "partial_refuse": 28,
+          "refuse": 4
+        }
+      },
+      "safedialbench_en": {
+        "sample_count": 50,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.3663,
+        "avg_turn_count_defended": 10.0,
+        "action_distribution": {
+          "guide": 168,
+          "rewrite": 56,
+          "allow": 16,
+          "refuse": 10
+        }
+      },
+      "safedialbench_zh": {
+        "sample_count": 50,
+        "successful_count": 4,
+        "successful_rate": 0.08,
+        "avg_final_cumulative_risk": 0.2996,
+        "avg_turn_count_defended": 7.72,
+        "action_distribution": {
+          "allow": 77,
+          "rewrite": 54,
+          "guide": 62
+        }
+      },
+      "overall": {
+        "sample_count": 200,
+        "successful_count": 4,
+        "successful_rate": 0.02,
+        "avg_final_cumulative_risk": 0.3743,
+        "avg_turn_count_defended": 14.83,
+        "action_distribution": {
+          "guide": 446,
+          "rewrite": 286,
+          "allow": 709,
+          "partial_refuse": 28,
+          "refuse": 14
+        }
+      }
+    },
+    "no_module1": {
+      "mhj_fallback_harmful": {
+        "sample_count": 100,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.0,
+        "avg_turn_count_defended": 20.8,
+        "action_distribution": {
+          "guide": 396,
+          "allow": 616,
+          "rewrite": 28
+        }
+      },
+      "safedialbench_en": {
+        "sample_count": 50,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.0,
+        "avg_turn_count_defended": 10.0,
+        "action_distribution": {
+          "guide": 219,
+          "allow": 20,
+          "rewrite": 11
+        }
+      },
+      "safedialbench_zh": {
+        "sample_count": 50,
+        "successful_count": 13,
+        "successful_rate": 0.26,
+        "avg_final_cumulative_risk": 0.0,
+        "avg_turn_count_defended": 7.72,
+        "action_distribution": {
+          "allow": 103,
+          "rewrite": 2,
+          "guide": 88
+        }
+      },
+      "overall": {
+        "sample_count": 200,
+        "successful_count": 13,
+        "successful_rate": 0.065,
+        "avg_final_cumulative_risk": 0.0,
+        "avg_turn_count_defended": 14.83,
+        "action_distribution": {
+          "guide": 703,
+          "allow": 739,
+          "rewrite": 41
+        }
+      }
+    },
+    "no_module2": {
+      "mhj_fallback_harmful": {
+        "sample_count": 100,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.3837,
+        "avg_turn_count_defended": 20.8,
+        "action_distribution": {
+          "guide": 424,
+          "allow": 616
+        }
+      },
+      "safedialbench_en": {
+        "sample_count": 50,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.2666,
+        "avg_turn_count_defended": 10.0,
+        "action_distribution": {
+          "guide": 235,
+          "allow": 13,
+          "rewrite": 2
+        }
+      },
+      "safedialbench_zh": {
+        "sample_count": 50,
+        "successful_count": 13,
+        "successful_rate": 0.26,
+        "avg_final_cumulative_risk": 0.2264,
+        "avg_turn_count_defended": 7.72,
+        "action_distribution": {
+          "allow": 100,
+          "guide": 93
+        }
+      },
+      "overall": {
+        "sample_count": 200,
+        "successful_count": 13,
+        "successful_rate": 0.065,
+        "avg_final_cumulative_risk": 0.3151,
+        "avg_turn_count_defended": 14.83,
+        "action_distribution": {
+          "guide": 752,
+          "allow": 729,
+          "rewrite": 2
+        }
+      }
+    },
+    "no_partial_refuse": {
+      "mhj_fallback_harmful": {
+        "sample_count": 100,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.4158,
+        "avg_turn_count_defended": 20.8,
+        "action_distribution": {
+          "guide": 216,
+          "rewrite": 176,
+          "allow": 616,
+          "refuse": 32
+        }
+      },
+      "safedialbench_en": {
+        "sample_count": 50,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.3663,
+        "avg_turn_count_defended": 10.0,
+        "action_distribution": {
+          "guide": 168,
+          "rewrite": 56,
+          "allow": 16,
+          "refuse": 10
+        }
+      },
+      "safedialbench_zh": {
+        "sample_count": 50,
+        "successful_count": 4,
+        "successful_rate": 0.08,
+        "avg_final_cumulative_risk": 0.2996,
+        "avg_turn_count_defended": 7.72,
+        "action_distribution": {
+          "allow": 77,
+          "rewrite": 54,
+          "guide": 62
+        }
+      },
+      "overall": {
+        "sample_count": 200,
+        "successful_count": 4,
+        "successful_rate": 0.02,
+        "avg_final_cumulative_risk": 0.3743,
+        "avg_turn_count_defended": 14.83,
+        "action_distribution": {
+          "guide": 446,
+          "rewrite": 286,
+          "allow": 709,
+          "refuse": 42
+        }
+      }
+    },
+    "no_rewrite": {
+      "mhj_fallback_harmful": {
+        "sample_count": 100,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.4158,
+        "avg_turn_count_defended": 20.8,
+        "action_distribution": {
+          "guide": 392,
+          "allow": 616,
+          "partial_refuse": 28,
+          "refuse": 4
+        }
+      },
+      "safedialbench_en": {
+        "sample_count": 50,
+        "successful_count": 0,
+        "successful_rate": 0.0,
+        "avg_final_cumulative_risk": 0.3663,
+        "avg_turn_count_defended": 10.0,
+        "action_distribution": {
+          "guide": 224,
+          "allow": 16,
+          "refuse": 10
+        }
+      },
+      "safedialbench_zh": {
+        "sample_count": 50,
+        "successful_count": 4,
+        "successful_rate": 0.08,
+        "avg_final_cumulative_risk": 0.2996,
+        "avg_turn_count_defended": 7.72,
+        "action_distribution": {
+          "allow": 77,
+          "guide": 116
+        }
+      },
+      "overall": {
+        "sample_count": 200,
+        "successful_count": 4,
+        "successful_rate": 0.02,
+        "avg_final_cumulative_risk": 0.3743,
+        "avg_turn_count_defended": 14.83,
+        "action_distribution": {
+          "guide": 732,
+          "allow": 709,
+          "partial_refuse": 28,
+          "refuse": 14
+        }
+      }
+    }
+  },
+  "safe_summaries": {
+    "full": {
+      "sample_count": 88,
+      "turn_count": 776,
+      "avg_fused_risk": 0.3192,
+      "action_distribution": {
+        "guide": 176,
+        "allow": 586,
+        "partial_refuse": 2,
+        "rewrite": 12
+      },
+      "safety_metrics": {
+        "turn_count": 776,
+        "avg_response_risk_before": 0.2614,
+        "avg_response_risk_after": 0.121,
+        "unsafe_rate_before": 0.2294,
+        "unsafe_rate_after": 0.0026,
+        "asr_proxy_reduction": 0.2268,
+        "benign_over_refusal_rate": 0.0026,
+        "benign_utility_jaccard": 0.8752
+      }
+    },
+    "no_module1": {
+      "sample_count": 88,
+      "turn_count": 776,
+      "avg_fused_risk": 0.2038,
+      "action_distribution": {
+        "guide": 190,
+        "allow": 586
+      },
+      "safety_metrics": {
+        "turn_count": 776,
+        "avg_response_risk_before": 0.2614,
+        "avg_response_risk_after": 0.1194,
+        "unsafe_rate_before": 0.2294,
+        "unsafe_rate_after": 0.0,
+        "asr_proxy_reduction": 0.2294,
+        "benign_over_refusal_rate": 0.0,
+        "benign_utility_jaccard": 0.8752
+      }
+    },
+    "no_module2": {
+      "sample_count": 88,
+      "turn_count": 776,
+      "avg_fused_risk": 0.3853,
+      "action_distribution": {
+        "guide": 177,
+        "allow": 586,
+        "rewrite": 13
+      },
+      "safety_metrics": {
+        "turn_count": 776,
+        "avg_response_risk_before": 0.2614,
+        "avg_response_risk_after": 0.1194,
+        "unsafe_rate_before": 0.2294,
+        "unsafe_rate_after": 0.0,
+        "asr_proxy_reduction": 0.2294,
+        "benign_over_refusal_rate": 0.0,
+        "benign_utility_jaccard": 0.8752
+      }
+    },
+    "no_partial_refuse": {
+      "sample_count": 88,
+      "turn_count": 776,
+      "avg_fused_risk": 0.3192,
+      "action_distribution": {
+        "guide": 176,
+        "allow": 586,
+        "refuse": 2,
+        "rewrite": 12
+      },
+      "safety_metrics": {
+        "turn_count": 776,
+        "avg_response_risk_before": 0.2614,
+        "avg_response_risk_after": 0.1195,
+        "unsafe_rate_before": 0.2294,
+        "unsafe_rate_after": 0.0,
+        "asr_proxy_reduction": 0.2294,
+        "benign_over_refusal_rate": 0.0026,
+        "benign_utility_jaccard": 0.8726
+      }
+    },
+    "no_rewrite": {
+      "sample_count": 88,
+      "turn_count": 776,
+      "avg_fused_risk": 0.3192,
+      "action_distribution": {
+        "guide": 188,
+        "allow": 586,
+        "partial_refuse": 2
+      },
+      "safety_metrics": {
+        "turn_count": 776,
+        "avg_response_risk_before": 0.2614,
+        "avg_response_risk_after": 0.121,
+        "unsafe_rate_before": 0.2294,
+        "unsafe_rate_after": 0.0026,
+        "asr_proxy_reduction": 0.2268,
+        "benign_over_refusal_rate": 0.0026,
+        "benign_utility_jaccard": 0.8752
+      }
+    }
+  }
+}
